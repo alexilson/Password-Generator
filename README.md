@@ -12,7 +12,7 @@ Code repo: https://github.com/alexilson/challenges/tree/main/wk3-challenge/Devel
 
 ---
 
-![Image of the password generator website] (screenshot.png)
+![Image of the password generator website](screenshot.png)
 
 ### HOW TO USE
 
