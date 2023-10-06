@@ -12,6 +12,8 @@ Code repo: https://github.com/alexilson/challenges/tree/main/wk3-challenge/Devel
 
 ---
 
+![Image of the password generator website] (screenshot.png)
+
 ### HOW TO USE
 
 1. Press the Generate Password button.
