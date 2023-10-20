@@ -6,7 +6,7 @@
 
 ---
 
-URL: https://catlinks.net/wk3-challenge/Develop/
+URL: https://alexilson.github.io/wk3-challenge/
 
 Code repo: https://github.com/alexilson/challenges/tree/main/wk3-challenge/Develop
 
