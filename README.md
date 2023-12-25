@@ -6,13 +6,13 @@
 
 ---
 
-URL: https://alexilson.github.io/wk3-challenge/
+Repo URL: https://github.com/alexilson/Password-Generator
 
-Code repo: https://github.com/alexilson/challenges/tree/main/wk3-challenge/Develop
+Live URL: https://alexilson.github.io/Password-Generator/
 
 ---
 
-![Image of the password generator website](screenshot.png)
+![Image of the password generator website](./assets/screenshot.png)
 
 ### HOW TO USE
 

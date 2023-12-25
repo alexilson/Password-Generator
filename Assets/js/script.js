@@ -22,6 +22,7 @@ function generatePassword() {
 
   var pwLength;
 
+  // prompts for pw length until user inputs a number between 8 and 128
   do {
     pwLength = prompt("How long would you like the password to be? Enter a number between 8 and 128.");
     pwLength = parseInt(pwLength);
@@ -55,7 +56,7 @@ function generatePassword() {
       }
     },
 
-    // Ask for password length to display on the prompt and use in the build.
+    // Assigns the pw length from earlier
     pwLength: pwLength,
     
     // Ask for each of the options and store it in this object under the appropriate property.
