@@ -19,6 +19,13 @@ function generatePassword() {
   // choiceSet will hold the set of characters for password construction chosen by the user.
   var builtPw = "";
   var choiceSet = "";
+
+  var pwLength;
+
+  do {
+    pwLength = prompt("How long would you like the password to be? Enter a number between 8 and 128.");
+    pwLength = parseInt(pwLength);
+  } while (isNaN(pwLength) || pwLength < 8 || pwLength > 128);
   
   // Create object with properties that will prompt for character sets and store each choice.
   // It also contains the function that builds the password.
@@ -49,7 +56,7 @@ function generatePassword() {
     },
 
     // Ask for password length to display on the prompt and use in the build.
-    pwLength: prompt("How long would you like the password to be? Enter a number between 8 and 128."),
+    pwLength: pwLength,
     
     // Ask for each of the options and store it in this object under the appropriate property.
     // Converts input to uppercase.
